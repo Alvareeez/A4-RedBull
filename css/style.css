@@ -1,6 +1,44 @@
-.body_index {
+body {
+    margin: 0;
+}
+
+#header {
+    height: 100vh;
     background-image: url("../img/header_background.jpeg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+}
+
+.h1_title {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 18%;
+}
+
+#main_h1 {
+    padding: 0% 25%;
+    font-size: 40px;
+}
+
+#main_p {
+    padding: 0% 25%;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .h1_title {
+        padding: 0% 1%;
+        font-size: 40px;
+    }
+    #main_h1 {
+        padding: 0% 1%;
+        font-size: 35px;
+    }
+    #main_p {
+        padding: 0% 1%;
+        font-size: 15px;
+    }
 }
