@@ -12,13 +12,18 @@ body {
     background-position: center;
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .h1_title {
     color: white;
     text-align: center;
     margin: 0;
     padding-left: 25%;
     padding-right: 25%;
-    padding-top: 18%;
     font-size: 40px;
 }
 
@@ -62,7 +67,6 @@ iframe {
 @media only screen and (max-width: 800px) {
     .h1_title {
         padding: 0% 1%;
-        padding-top: 65%;
         font-size: 40px;
     }
     #main {
